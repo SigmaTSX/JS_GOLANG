@@ -10,7 +10,7 @@ const personalMovieDB = {
 const answers = () => {
     let answer1 = prompt("Один из последних просмотренных фильмов?",'');
     let answer2 = prompt("На сколько оцените его?",'');
-    personalMovieDB.movies[answer1] = answer2;
+    answer1 ? personalMovieDB.movies[answer1] = answer2 :{};
 };
 
 answers();
