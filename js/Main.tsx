@@ -1,5 +1,5 @@
-import { practice2 } from "./practice2";
+import { practice3 } from "./practice3";
 
 function Main(){
-    practice2()
+    practice3()
 }

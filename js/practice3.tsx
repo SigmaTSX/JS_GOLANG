@@ -48,5 +48,19 @@ const practice3 = () => {
     }
     watchFilmLevel();
 
+    const showMyDB = (privat) =>{
+        !privat ? console.log('Object: ', personalMovieDB) : null
+    }
+    showMyDB(personalMovieDB.privat)
+
+    const writeYourGenres = () =>{
+        for(let i=0;i<3;i++){
+            let answer1 = prompt(`Ващ любимый жанр под номером ${personalMovieDB.genres.length+1}`)
+            //@ts-ignore
+            personalMovieDB.genres[i] = answer1;
+        }
+    }
+    writeYourGenres();
+
 }
 practice3();
