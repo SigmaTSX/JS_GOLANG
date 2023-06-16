@@ -24,6 +24,7 @@ const WarehouseTable = () => {
     return (
         <div className="warehouse-table-container">
             <div className="warehouse-table">
+            <h2>Список складов</h2>
                 <table>
                     <thead>
                         <tr>
