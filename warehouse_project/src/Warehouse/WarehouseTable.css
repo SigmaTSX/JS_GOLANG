@@ -1,7 +1,8 @@
 .warehouse-table-container {
     display: flex;
-    height: 100vh;
+    height: 91vh;
     align-items: stretch;
+    margin-left: 3vh;
 }
 
 .warehouse-table {

@@ -28,7 +28,7 @@ const WarehouseDetailsTabs = ({ warehouse, onSaveChanges }) => {
 
   return (
     <Tabs>
-      <TabPane tab="General Information" key="general">
+      <TabPane tab="Основная информация" key="general">
         <div>
           <label>ID:</label>
           <Input name="id" value={formData.id} disabled />
@@ -82,10 +82,10 @@ const WarehouseDetailsTabs = ({ warehouse, onSaveChanges }) => {
           <Input name="status" value={formData.status} disabled />
         </div>
         <Button type="primary" onClick={handleSave}>
-          Save
+          Сохранить
         </Button>
       </TabPane>
-      <TabPane tab="Products" key="products">
+      <TabPane tab="Продукты" key="products">
         {/* Add your product content here */}
       </TabPane>
     </Tabs>
