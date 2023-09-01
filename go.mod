@@ -1,3 +1,3 @@
-module golang
+module bdvgo
 
 go 1.21.0
