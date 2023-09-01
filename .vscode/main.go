@@ -7,5 +7,6 @@ import (
 func main() {
 	//golang.OfArray()
 	// golang.OfSwitch()
-	golang.OfSlices()
+	//golang.OfSlices()
+	golang.OfMap()
 }
